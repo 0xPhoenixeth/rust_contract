@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use borsh::{BorshDeserialize, BorshSerialize};
 
 #[no_mangle]
 pub extern "C" fn alloc(len: u32) -> *mut u8 {
