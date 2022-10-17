@@ -10,5 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 borsh = "0.9.3"
-smart_contract = { package = "pchain-sdk", version = "0.2" }
 
