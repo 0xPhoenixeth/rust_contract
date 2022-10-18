@@ -9,4 +9,6 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
+anyhow = "1.0"
+borsh = "0.9"
 
